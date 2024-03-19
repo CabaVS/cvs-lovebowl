@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>9b6c4855-9aaf-4e3d-baa7-037af65ecfba</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CabaVS.LoveBowl.Application\CabaVS.LoveBowl.Application.csproj" />
+      <ProjectReference Include="..\CabaVS.LoveBowl.Infrastructure\CabaVS.LoveBowl.Infrastructure.csproj" />
+      <ProjectReference Include="..\CabaVS.LoveBowl.Presentation\CabaVS.LoveBowl.Presentation.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="logs\**" />
+    </ItemGroup>
+
+</Project>
