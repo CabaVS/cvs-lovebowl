@@ -5,5 +5,8 @@ obj/
 # Rider IDE
 .idea/
 
+# VS IDE
+.vs/
+
 # Logging
 logs/
