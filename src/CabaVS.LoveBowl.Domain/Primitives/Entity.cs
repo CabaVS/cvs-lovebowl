@@ -2,6 +2,8 @@ namespace CabaVS.LoveBowl.Domain.Primitives;
 
 public abstract class Entity(Guid id) : IEquatable<Entity>
 {
+    private readonly List<IDomainEvent> _domainEvents = [];
+    
     public Guid Id { get; } = id;
 
     public static bool operator ==(Entity? first, Entity? second)
@@ -33,5 +35,10 @@ public abstract class Entity(Guid id) : IEquatable<Entity>
     public override int GetHashCode()
     {
         return Id.GetHashCode() * 47;
+    }
+
+    protected void RaiseDomainEvent(IDomainEvent domainEvent)
+    {
+        _domainEvents.Add(domainEvent);
     }
 }

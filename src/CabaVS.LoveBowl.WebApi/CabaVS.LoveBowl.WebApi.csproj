@@ -11,6 +11,7 @@
     <ItemGroup>
       <ProjectReference Include="..\CabaVS.LoveBowl.Application\CabaVS.LoveBowl.Application.csproj" />
       <ProjectReference Include="..\CabaVS.LoveBowl.Infrastructure\CabaVS.LoveBowl.Infrastructure.csproj" />
+      <ProjectReference Include="..\CabaVS.LoveBowl.Persistence\CabaVS.LoveBowl.Persistence.csproj" />
       <ProjectReference Include="..\CabaVS.LoveBowl.Presentation\CabaVS.LoveBowl.Presentation.csproj" />
     </ItemGroup>
 

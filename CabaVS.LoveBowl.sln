@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.dockerignore = .dockerignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabaVS.LoveBowl.Persistence", "src\CabaVS.LoveBowl.Persistence\CabaVS.LoveBowl.Persistence.csproj", "{90FC9B29-DF20-4779-AB93-CBEAB6568AA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D15A48CE-1BED-4348-BB7B-74198E0216E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D15A48CE-1BED-4348-BB7B-74198E0216E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D15A48CE-1BED-4348-BB7B-74198E0216E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FC9B29-DF20-4779-AB93-CBEAB6568AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FC9B29-DF20-4779-AB93-CBEAB6568AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FC9B29-DF20-4779-AB93-CBEAB6568AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FC9B29-DF20-4779-AB93-CBEAB6568AA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{97B78D88-5554-47BE-8EEE-B36B57DDEB80} = {0C6BC7F9-8D6B-4253-B7BC-53499B379670}
@@ -52,5 +58,6 @@ Global
 		{30C8C04B-D0FC-42E3-99BD-CE3B9AD7A368} = {0C6BC7F9-8D6B-4253-B7BC-53499B379670}
 		{171424DE-86AA-4304-AFC0-C3BAA83E6821} = {0C6BC7F9-8D6B-4253-B7BC-53499B379670}
 		{D15A48CE-1BED-4348-BB7B-74198E0216E4} = {0C6BC7F9-8D6B-4253-B7BC-53499B379670}
+		{90FC9B29-DF20-4779-AB93-CBEAB6568AA1} = {0C6BC7F9-8D6B-4253-B7BC-53499B379670}
 	EndGlobalSection
 EndGlobal
